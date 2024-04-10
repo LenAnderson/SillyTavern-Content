@@ -41,8 +41,21 @@
 							"type": "string"
 						},
 						"author": {
-							"description": "Name of the extenion author.",
-							"type": "string"
+							"description": "The extension author.",
+							"type": "object",
+							"required": [
+								"name"
+							],
+							"properties": {
+								"name": {
+									"description": "Author's name.",
+									"type": "string"
+								},
+								"url": {
+									"description": "Link to author's webite / GitHub / ...",
+									"type": "string"
+								}
+							}
 						},
 						"tags": {
 							"description": "List of tags to classify this extension.",
@@ -50,7 +63,7 @@
 							"items": {
 								"type": "string",
 								"enum": [
-									"QOL",
+									"QoL",
 									"UI Tweaks",
 									"Character Management"
 								]
