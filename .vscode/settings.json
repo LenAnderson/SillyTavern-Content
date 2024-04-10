@@ -1,0 +1,68 @@
+{
+	"json.schemas": [
+		{
+			"fileMatch": [
+				"/extensions.json"
+			],
+			"schema": {
+				"type": "array",
+				"items": {
+					"type": "object",
+					"required": [
+						"id",
+						"type",
+						"name",
+						"description",
+						"url"
+					],
+					"properties": {
+						"id": {
+							"description": "A unique identifier for this extension.",
+							"type": "string",
+							"uniqueItems": true,
+						},
+						"type": {
+							"description": "The type always has to be set to \"extension\".",
+							"type": "string",
+							"enum": [
+								"extension"
+							]
+						},
+						"name": {
+							"description": "Display name to be shown in the installer.",
+							"type": "string"
+						},
+						"description": {
+							"description": "A brief description of the extensions functionality. Shown in the list of extensions.",
+							"type": "string"
+						},
+						"url": {
+							"description": "URL of the GitHub repository. Used to install the extension.",
+							"type": "string"
+						},
+						"author": {
+							"description": "Name of the extenion author.",
+							"type": "string"
+						},
+						"tags": {
+							"description": "List of tags to classify this extension.",
+							"type": "array",
+							"items": {
+								"type": "string",
+								"enum": [
+									"QOL",
+									"UI Tweaks",
+									"Character Management"
+								]
+							}
+						},
+						"thumb": {
+							"description": "URL to a thumbnail. Should have aspect ratio of 2:1 (twice as wide as it is tall).",
+							"type": "string"
+						}
+					}
+				}
+			}
+		}
+	]
+}
