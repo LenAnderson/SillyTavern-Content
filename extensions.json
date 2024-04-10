@@ -133,7 +133,9 @@
         "name": "Variable Viewer",
         "description": "Easy way to view and modify variables.",
         "url": "https://github.com/LenAnderson/SillyTavern-Variable-Viewer",
-        "author": "LenAnderson"
+        "author": "LenAnderson",
+        "thumb": "https://raw.github.com/LenAnderson/SillyTavern-Variable-Viewer/README/thumb.png",
+        "tags": ["QOL", "UI Tweaks"]
     },
     {
         "id": "Extension-VRM",
