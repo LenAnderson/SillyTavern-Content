@@ -168,5 +168,12 @@
         "url": "https://github.com/LenAnderson/SillyTavern-TriggerCards",
         "thumb": "https://raw.github.com/LenAnderson/SillyTavern-TriggerCards/master/README/tc-01.png",
         "tags": ["UI Tweaks", "Character Management"]
+    },
+    {
+        "id": "SillyTavern-Files",
+        "type": "plugin",
+        "name": "Files Plugin",
+        "description": "Adds server endpoints to work with local files.",
+        "url": "https://github.com/LenAnderson/SillyTavern-Files"
     }
 ]

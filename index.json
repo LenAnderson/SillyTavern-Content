@@ -318,5 +318,12 @@
       "UI Tweaks",
       "Character Management"
     ]
+  },
+  {
+    "id": "SillyTavern-Files",
+    "type": "plugin",
+    "name": "Files Plugin",
+    "description": "Adds server endpoints to work with local files.",
+    "url": "https://github.com/LenAnderson/SillyTavern-Files"
   }
 ]

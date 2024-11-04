@@ -22,10 +22,11 @@
 							"uniqueItems": true,
 						},
 						"type": {
-							"description": "The type always has to be set to \"extension\".",
+							"description": "The type (extension or plugin).",
 							"type": "string",
 							"enum": [
-								"extension"
+								"extension",
+								"plugin"
 							]
 						},
 						"name": {
@@ -62,11 +63,6 @@
 							"type": "array",
 							"items": {
 								"type": "string",
-								"enum": [
-									"QoL",
-									"UI Tweaks",
-									"Character Management"
-								]
 							}
 						},
 						"thumb": {
